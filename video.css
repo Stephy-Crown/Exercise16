@@ -12,7 +12,7 @@
     font-size: 14px;
     font-weight: 500 ;
     line-height: 20px; margin-bottom: 10px ;
-    width: 250px;
+    
     
   } 
   .video-title:hover,
@@ -30,16 +30,7 @@
 
     
 
-    .video-preview{
-      
-      
-      /*
-      width: 300px;
-      display: inline-block; 
-      margin-right:15px  ;
-      vertical-align: top;*/
-    }
-
+   
 
 
     .video-info-grid{
@@ -68,6 +59,7 @@ opacity: 0;
 pointer-events: none;
 z-index: 300;
 top: 45px;
+transition: opacity 0.15s;
 
     }
 
@@ -119,7 +111,8 @@ top: 45px;
       
     }
   .thumbnail-row{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    position: relative;
   }
 
   .video-author , .video-stats{
@@ -167,5 +160,5 @@ top: 45px;
   font-weight: 500;
   padding:4px 4px;
   border-radius: 3px;
-  font-size: 500;
+  font-weight: 500;
 }
